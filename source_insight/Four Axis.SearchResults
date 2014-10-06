@@ -1,0 +1,18 @@
+---- isFisrtBoot Æ¥Åä (17 in 3 ÎÄ¼þ) ----
+Exint.c (peripheral\exint):extern bool isFisrtBoot;
+Exint.c (peripheral\exint):				isFisrtBoot = FALSE;
+Exint.c (peripheral\exint):				isFisrtBoot = TRUE;
+Main.c (usr):bool isFisrtBoot = TRUE;
+Main.c (usr):	//bool isFisrtBoot = TRUE;
+Main.c (usr):				isFisrtBoot = FALSE;
+Main.c (usr):				isFisrtBoot = TRUE;
+Main.c (usr):			if(isFisrtBoot){
+Main.c (usr):				//	isFisrtBoot = TRUE;
+Main.c (usr):	//bool isFisrtBoot = TRUE;
+Main.c (usr):			if(isFisrtBoot){
+Main.c (usr):						isFisrtBoot = TRUE;
+Main.c (usr):			if(isFisrtBoot){
+Main.c (usr):						isFisrtBoot = TRUE;
+Remote_ctrl.c (algorithm\remote):extern bool isFisrtBoot;
+Remote_ctrl.c (algorithm\remote):		isFisrtBoot = FALSE;
+Remote_ctrl.c (algorithm\remote):		isFisrtBoot = TRUE;
